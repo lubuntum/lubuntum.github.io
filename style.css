@@ -128,11 +128,6 @@ body{
 }
 @media screen and (max-width:600px) {
     .card_wrap{
-        width: 70%;
-    }
-}
-@media screen and (max-width:600px) {
-    .card_wrap{
         width: 80%;
     }
 }
