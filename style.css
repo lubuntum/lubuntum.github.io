@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+body{
+    margin-top: 5rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(225, 225, 225);
+}
+
+.card_title{
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+}
+.title{
+    font-weight: 500;
+    font-size: 25px;
+    margin-top:0.55rem;
+}
+.card_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+.card_wrap{
+    display: flex;
+    justify-content: center;
+
+    width: 50%;
+    border-radius: 15px;
+    padding: 2.5rem;
+    border: 2px solid rgb(200, 200, 200);
+    
+    background: linear-gradient(to top, #a17c5b, #d4b996);
+    box-shadow: 12px 12px 8px 0px rgba(34, 60, 80, 0.2);
+
+}
+
+.card_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.card_img img {
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #5f3c1e;
+}
+.img_desc{
+    margin-top: 1rem;
+    font-size: 25px;
+    text-align: center;
+}
+
+.card_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 2rem;
+    font-size: 18px;
+}
+.content{
+    margin-top: 1rem;
+}
+.card_info ul{
+    padding-left:1rem;
+}
+.card_info ul li{
+    margin-top: 0.5rem;
+}
+.tasks{
+    margin-top: 1rem;
+}
+.pick_elem{
+    transition: all 0.2s ease;
+}
+.pick_elem:hover{
+    color: white;
+}
+.rats_img_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+
+}
+.rats_img_container img{
+    height: auto;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #5f3c1e;
+}
+.rat_img_container:hover{
+    transform: translateY(-10px);
+}
+.rat_img_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 15px;
+    transition: all 1s ease;
+}
+
+@media screen and (max-width:1200px) {
+    .card_info{
+        width: 200%;
+    }
+}
+@media screen and (max-width:800px) {
+    .card_wrap{
+        flex-wrap: wrap;
+        width: 60%;
+    }
+    .card_info{
+        margin-top: 2rem;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .rats_img_container{
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+    .card_wrap{
+        width: 70%;
+    }
+}
+@media screen and (max-width:600px) {
+    .card_wrap{
+        width: 80%;
+    }
+}
