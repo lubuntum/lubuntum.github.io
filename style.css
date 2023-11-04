@@ -110,6 +110,9 @@ body{
     }
 }
 @media screen and (max-width:800px) {
+    body{
+        margin-top: 1.5rem;
+    }
     .card_wrap{
         flex-wrap: wrap;
         width: 60%;
